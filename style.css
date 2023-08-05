@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .f_body {
+    display: flex;
+  }
+  .left-half, .right-half {
+    flex: 1;
+  }
+  .left-half {
+    background-color: #000000;
+    padding: 30px 0 30px 30px;
+  }
+  .right-half {
+    background-color: #575A85;
+    padding: 250px 70px;
+    font-size: 25px;
+  }  
+  .f_h2 {
+    color: #575A85;
+  }
+  .f_para {
+    color: #B8BCCC;
+    font-weight: bold;
+  }
+  .f_ip {
+    color: #FFFFFF;
+  }
+  .ip {
+    color: #B8BCCC;
+  }
+  .f_img {
+    padding: 50px;
+  }
+  .get-started-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #575A85;
+    color: #B8BCCC;
+    border-radius: 8px;
+    padding: 12px 70px;
+    margin-left: 150px;
+    font-size: 18px;
+    border: 2px solid #B8BCCC;
+  }
+  .get-started-btn:hover {
+    background-color: #B8BCCC;
+    color: #575A85;
+  }
+  .container {
+    background-color: #575A85;
+    height: 700px;
+    margin-top: 0%;
+    padding: 40px;
+  }
+  .top_cont {
+    background-color: #000000;
+    color: #5C5E66;
+    padding: 30px 0 70px 40px;
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  .last {
+    padding-right: 300px;
+  }
+  .last1 {
+    padding-right: 338px;
+  }
+  .span1 {
+    margin-right: -75px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .para {
+    display: flex;
+    justify-content: space-between;
+  }
+  .info_cont {
+    background-color: #000000;
+    color: #5C5E66;
+    padding-top: 40px;
+  }
+  h2 {
+    color: #B8BCCC;
+    text-align: center;
+  }
+  .h {
+    margin-top: 0%;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .parag {
+    color: #5C5E66;
+    font-size: 28px;
+    padding-left: 40px;
+    font-weight: bolder;
+  }
+  .nsp {
+    color: #5C5E66;
+    font-size: 28px;
+    font-weight: normal;
+  }
+  .post {
+    background-color: #575A85;
+    color: #B8BCCC;
+    padding: 10px 40px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+  }
+  .grid-cont {
+    display: grid;
+    grid-template-columns: 565px 565px;
+    gap: 50px;
+    margin-left: 40px;
+  }
+  .search {
+    background-color: #000000;
+    color: #B8BCCC;
+    font-size: 20px;
+    padding: 12px;
+    margin: 40px;
+    padding-right: 920px;
+    border-radius: 5px;
+    border: 2px solid #575A85;
+  }
+ 
+  
+  
